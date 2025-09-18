@@ -1,11 +1,9 @@
 import { VariableWithOptions } from '@grafana/data';
-import { Card } from '@grafana/ui';
 import React, { useCallback } from 'react';
 import { AnonymityVisualization } from './AnonymityVisualization/AnonymityVisualization';
 import { useGrafanaVariablesContext } from './GrafanaVariables/GrafanaVariablesContext';
 import { getNextVariableOption } from './GrafanaVariables/variableUtils';
 import { useKeybinds, KeybindValue } from './utils/useKeybinds';
-import { VariableDisplay } from './VariableDisplay/VariableDisplay';
 
 
 
