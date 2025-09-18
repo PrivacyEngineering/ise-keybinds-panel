@@ -1,0 +1,18 @@
+
+.vd-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.vd-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+
+.vd-value {
+  font-family: monospace;
+  font-size: 1.2em;
+}
